@@ -49,6 +49,7 @@ const OfferCards = ({ icon, value }) => {
           $ 3,982.<span className=" text-[11px]">63</span>
         </p>
         <Link
+          onClick={() => window.scrollTo(0, 0)}
           to="/bookingPage"
           className="mb-2 rounded-2xl bg-[#6F57E9] px-7 py-3 text-white hover:bg-[#5643b8]"
         >

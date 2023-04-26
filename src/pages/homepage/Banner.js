@@ -71,7 +71,7 @@ const Banner = () => {
             </div>
 
             <div className=" lg:boder-[#B9B9B9] self-center lg:border-l-2">
-              <Link to="/shippingPage">
+              <Link onClick={() => window.scrollTo(0, 0)} to="/shippingPage">
                 <button className=" ml-3 rounded-2xl bg-[#6F57E9] px-5 py-3 text-white hover:bg-[#5643b8] lg:px-2">
                   <img width={16} src={arrowRight} alt="shipping page" />
                 </button>
